@@ -46,7 +46,7 @@
                 <div class="formrow">
                     <div class="formdiv">
                         <label for="user_password">PASSWORD</label>
-                        <input type="password" name="user_password" id="user_password" required>
+                        <input type="password" name="user_password" id="user_password" required aria-errormessage="please try again!">
                     </div>
                     <div class="formdiv">
                         <label for="confirm_password">CONFIRM PASSWORD</label>
@@ -57,7 +57,7 @@
             </form>
         </div>
         <div class="createaccountdiv">
-            <input type="submit" value="Create Account" id="createbtn">
+            <input class="createbtn" type="submit" name="userdata" value="Create Account" form="userdata">
             <p>Already have an account? <a href="#">log in!</a></p>
     
     
