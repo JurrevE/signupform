@@ -1,3 +1,7 @@
+input {
+    width: 12rem;
+    height: 1.5rem;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -16,8 +20,10 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: lightgrey;
-    /* width: 100vw;
-    height: 100vh; */
+    
+}
+h1 {
+    margin-left: 3rem;
 }
 
 .hero {
@@ -26,9 +32,7 @@ body {
     background-image: url(playboicarti2.jpg);
     background-size: cover; 
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
 
 .herobar {
@@ -44,10 +48,8 @@ body {
 
 .herotext {
     color: white;
-    font-size:60px;
+    font-size:40px;
 }
-
-
 
 .rightside {
     min-width: 65%;
@@ -55,13 +57,48 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
+
 .form {
     background-color: white;
-    height: 33%;
 }
 
 .calltoaction {
-    height: 15vh;
+    height: 33.3333%;
     font-size: x-large;
+    margin-left: 3rem;
+    margin-right: 19rem;
+    margin-top: 3rem;
 }
+
+.formbigdiv {
+    background: white;
+    height: 33.3333%
+}
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 3rem;
+}
+
+.formrow {
+    display: flex;
+}
+
+.createaccountdiv {
+    height: 33.3333%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+#createbtn {
+    height: 3rem;
+    width: 11rem;
+    background-color: darkred;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
 
