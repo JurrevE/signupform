@@ -105,12 +105,3 @@ input:focus {
     box-shadow:  4px 5px 13px 2px #000000;
 }
 
-#user_password:invalid,
-#confirm_password:invalid {
-border: 1px solid red;
-}
-
-#user_password:valid,
-#confirm_password:valid, {
-border: 1px solid black;
-}
